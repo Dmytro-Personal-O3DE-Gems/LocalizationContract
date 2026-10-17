@@ -1,0 +1,30 @@
+{
+    "gem_name": "LocalizationContract",
+    "version": "1.0.0",
+    "display_name": "Localization Contract",
+    "license": "MIT",
+    "license_url": "https://mit-license.org/",
+    "origin": "Dmytro Shyshkin",
+    "origin_url": "",
+    "type": "Code",
+    "summary": "Interface for requesting localized text by key. Contains no implementation.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "LocalizationContract","Localization"
+    ],
+    "platforms": [
+        "iOS","Linux","Android","Windows"
+    ],
+    "icon_path": "",
+    "requirements": "Contract-only gem: it declares the localization interface (request and notification buses) and does nothing by itself. Enable a gem that implements LocalizationContract, e.g. LocalizationGem.",
+    "documentation_url": "",
+    "dependencies": [
+    ],
+    "repo_uri": "",
+    "compatible_engines": [
+    ],
+    "engine_api_dependencies":[
+    ]
+}
